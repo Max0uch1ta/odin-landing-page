@@ -1,6 +1,4 @@
-* {
-    border: 1px solid red;
-}
+
 
 .hero .left .text, .header .links {
     color: #E5E7EB
@@ -10,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'League Spartan';
 }
 
 a {
@@ -18,9 +16,6 @@ a {
     color: #E5E7EB;
 }
 
-h1 {
-    font-size: 48px;
-}
 
 .header, .hero {
     background-color: #1F2937;
@@ -40,7 +35,7 @@ h1 {
 
 .links {
     display: flex;
-    justify-content: flex-start;
+    gap: 15px;
 }
 
 .links li {
@@ -49,13 +44,61 @@ h1 {
 /* Hero section*/
 .hero {
     justify-content: center;
-    height: 500px;
+    height: 450px;
 }
-
+/* Left section */
 .left {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    height: 300px;
+    width: 400px;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.left .text {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.sign-up {
+   
+    outline: 0;
+    width: 120px;
+    grid-gap: 8px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 0px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+}
+.sign-up:hover {
+        box-shadow: 4px 4px 0 #000;
+        transform: translate(-4px,-4px);
+    }
+.sign-up:focus-visible {
+        outline-offset: 1px;
+    }
+
+
+
+
 
 .right {
     display: flex;
@@ -68,6 +111,9 @@ h1 {
     align-items: center;
     margin-left: 30px;
 }
+
+
+
 
 
 
