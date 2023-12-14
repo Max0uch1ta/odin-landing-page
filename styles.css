@@ -1,5 +1,4 @@
 
-
 .hero .left .text, .header .links {
     color: #E5E7EB
 }
@@ -43,7 +42,7 @@ a {
 }
 /* Hero section*/
 .hero {
-    justify-content: center;
+    justify-content: space-around;
     height: 450px;
 }
 /* Left section */
@@ -96,25 +95,63 @@ a {
         outline-offset: 1px;
     }
 
-
-
-
-
 .right {
     display: flex;
     align-items: center;
+    width: 400px;
 }
 
 .right img {
     max-width: 300px;
     max-height: 300px;
     align-items: center;
-    margin-left: 30px;
 }
 
+/* Section 1: Projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+}
 
+.projects .section-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
 
+.cards {
+    height: 300px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
 
+.project {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    gap: 10px;
+}
 
+.subtext {
+    flex-wrap: wrap;
+}
+
+.project img{
+    max-width: 250px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.project img:hover {
+    box-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+}
 
 
