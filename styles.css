@@ -40,6 +40,12 @@ a {
 .links li {
     list-style-type: none;
 }
+
+.links li:hover {
+    text-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+}
+
 /* Hero section*/
 .hero {
     justify-content: space-around;
@@ -154,4 +160,48 @@ a {
     transform: translate(-4px,-4px);
 }
 
+/* Section 2: Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+}
 
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 700px;
+}
+
+.author {
+    width: 700px;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: right;
+}
+/* Section 3: CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.rectangle {
+    background-color: #1F2937;
+    width: 900px;
+    padding: 30px 15px 30px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta .text {
+    max-width: 450px;
+    color: #E5E7EB;
+}
