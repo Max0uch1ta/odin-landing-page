@@ -205,3 +205,14 @@ a {
     max-width: 450px;
     color: #E5E7EB;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 100;
+    text-shadow: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
